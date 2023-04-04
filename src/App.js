@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import ChatBot from 'react-simple-chatbot';
+import Rules from './components/chatbot/Rules';
 import './App.css';
 
 function App() {
+  //   console.log(token);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to PAM</h1>
+      <Rules customDelay={0} />
     </div>
   );
 }
